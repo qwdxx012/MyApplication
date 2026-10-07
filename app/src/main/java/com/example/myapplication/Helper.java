@@ -2,8 +2,9 @@ package com.example.myapplication;
 
 public class Helper {
     private String name = "Helper";
+    private FefDebug debug = new FefDebug();
 
     public void printName() {
-        System.out.println(name);
+        debug.log(name);
     }
 }
